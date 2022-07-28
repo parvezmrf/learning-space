@@ -1,0 +1,13 @@
+.nav-link {
+    transition: 0.3s;
+
+}
+
+.nav-link:hover {
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.bg-cover-tittle {
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
