@@ -11,3 +11,7 @@
 .bg-cover-tittle {
     background-color: hsla(0, 0%, 0%, 0.4);
 }
+
+.max-w {
+    width: 50%;
+}
