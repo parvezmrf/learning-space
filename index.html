@@ -201,8 +201,53 @@
         <!-- all course list end -->
 
 
-        <div>
-            <h1>Ready to join</h1>
+
+        <!-- popup register starts -->
+        <div class="py-5">
+            <div class=" rounded p-5 bg-primary d-md-flex d-lg-flex justify-content-around align-items-center">
+                <div class="w-50  text-white">
+                    <h1>Ready to join</h1>
+                    <p>Want to join today for free? Prass the <strong>Register Now</strong> button. Enter your email and
+                        enjoy our free service!!</p>
+                </div>
+                <div>
+
+
+                    <!-- Button trigger modal -->
+
+                    <button type="button" class="btn btn-primary bg-white text-primary py-2 px-5 fw-bold"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Register Today</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label for="name"> Full Name:</label> <input type="text"> <br> <br>
+                                    <label for="name"> Your Email:</label> <input type="email">
+                                    <br> <br>
+                                    <label for="name"> Password: </label> <input type="password">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
 
 
@@ -414,7 +459,9 @@
                 NS Road, Lovely Tower, <br>Main Road, Mojompur, Kushtia
             </address>
             </p>
-            <a href="#">Privacy Policy</a> | <a href="#">Terms of use</a>
+            <a href="#" class="text-decoration-none text-white">Privacy Policy</a> | <a href="#"
+                class="text-decoration-none text-white">Terms
+                of use</a>
 
 
 
